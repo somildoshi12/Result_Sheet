@@ -404,7 +404,7 @@ public class Result_Sheet
         System.out.println("-------------------------\t\t\t\t\t\t\t\t-----------------");
 
         System.out.println();
-        System.out.println("Name\tStandard\tDivision\tRoll no.\tDate of Birth\t\tID no.");
+        System.out.println("Name\t\tStandard\tDivision\tRoll no.\t   Date of Birth\t   ID no.");
         System.out.println();
         System.out.println(name[m]+"\t\t"+std[m]+"\t\t\t"+div[m]+"\t\t\t"+roll[m]+"\t\t\t"+dob[m]+"\t\t\t"+id[m]);
         System.out.println();
