@@ -452,22 +452,22 @@ public class Result_Sheet
 
     public void promotion(int l)     //for grade
     {
-        if(percent[l]>80)
+        if(percent[l]>90)
         {
             new_std[l] = std[l]+1;
             new_div[l] ='A';
         }
-        else if(percent[l]>70 && percent[l]<=80)
+        else if(percent[l]>80 && percent[l]<=90)
         {
             new_std[l] = std[l]+1;
             new_div[l] ='B';
         }
-        else if(percent[l]>60 && percent[l]<=70)
+        else if(percent[l]>70 && percent[l]<=80)
         {
             new_std[l] = std[l]+1;
             new_div[l] ='C';
         }
-        else if(percent[l]>40 && percent[l]<=60)
+        else if(percent[l]>40 && percent[l]<=70)
         {
             new_std[l] = std[l]+1;
             new_div[l] ='D';
@@ -480,27 +480,27 @@ public class Result_Sheet
 
         if(percent[l]>90)
         {
-            grade[l] = "A++";
+            grade[l] = "A+";
         }
         else if(percent[l]>80 && percent[l]<=90)
         {{ }
-            grade[l] = "A+";
+            grade[l] = "A";
         }
         else if(percent[l]>70 && percent[l]<=80)
         {
-            grade[l] = "B++";
+            grade[l] = "B+";
         }
         else if(percent[l]>60 && percent[l]<=70)
         {
-            grade[l] = "B+";
+            grade[l] = "B";
         }
         else if(percent[l]>50 && percent[l]<=60)
         {
-            grade[l] = "C++";
+            grade[l] = "C+";
         }
         else if(percent[l]>40 && percent[l]<=50)
         {
-            grade[l] = "C+";
+            grade[l] = "C";
         }
         else if(percent[l]<=40)
         {
