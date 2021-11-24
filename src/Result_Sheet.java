@@ -568,5 +568,22 @@ public class Result_Sheet
             System.out.println("\n\n\n\n\n");
 
         }
+
+        int temp=157;
+        int i;
+        char ch = (char)temp;
+        for(i=0;i<=30;i++)
+        {
+            System.out.print(ch);
+        }
+        System.out.println("\n"+ch+"   Kailash Ahir     -   02   "+ch);
+        System.out.println(ch+"   Somil Doshi      -   15   "+ch);
+
+        for(i=0;i<=30;i++)
+        {
+            System.out.print(ch);
+        }
+
+        System.out.println("\n");
     }
 }
